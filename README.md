@@ -1,2 +1,6 @@
-# aldo
-The almighty Aldo bot
+# Aldo
+
+
+## Usage
+
+See https://github.com/codebox/markov-text

@@ -1,6 +1,11 @@
-# Aldo
+# Aldo Telegram Bot
 
+Telegram Bot generating text using https://github.com/codebox/markov-text
 
 ## Usage
 
-See https://github.com/codebox/markov-text
+```
+python aldo.py
+```
+
+

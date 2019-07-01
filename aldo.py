@@ -3,9 +3,14 @@ from db import Db
 from gen import Generator
 from sql import Sql
 from rnd import Rnd
+import json
 import sqlite3
 
-bot = TeleBot("487462699:AAFqHxeyFzA3BynQ6XGgFGwzlfgUGiQK7Q4")
+
+with open('credentials.json') as f:
+	data = json.load(f)
+
+bot = TeleBot(data['token'])
 
 @bot.message_handler(func=lambda message: True)
 def improvise(message):
